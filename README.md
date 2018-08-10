@@ -23,7 +23,7 @@ This website allows users to take a quick survey to determine which programming 
 * JavaScript
 * jQuery
 
-##Sources
+## Sources
 
 * <a href="https://api.jquery.com/">jQuery API Documentation</a>
 * <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4.1 Documentation</a>
