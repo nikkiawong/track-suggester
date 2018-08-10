@@ -12,12 +12,12 @@
   <body>
     <div class="container">
       <h1>Track Suggester</h1>
-      <div id="entry">
+      <div class="card" id="entry">
         <form id="quizForm">
 
           <div class="form-group row" id="worktype">
-            <label for="worktype" class="col-2 col-form-label">What kind of work interests you most?</label>
-            <div class="col-10">
+            <label for="worktype" class="col-4 col-form-label">What kind of work interests you most?</label>
+            <div class="col-8">
               <label>
                 <input type="radio" name="worktype" value="design">Designing web pages and applications
               </label>
@@ -31,13 +31,13 @@
           </div>
 
           <div class="form-group row" id="workplace">
-            <label for="workplace" class="col-2 col-form-label">What kind of company would you like to work for?</label>
-            <div class="col-10">
+            <label for="workplace" class="col-4 col-form-label">What kind of company would you like to work for?</label>
+            <div class="col-8">
               <label>
                 <input type="radio" name="workplace" value="large">Large corporate/government organization
               </label>
               <label>
-                <input type="radio" name="workplace" value="small">Startups/smaller company
+                <input type="radio" name="workplace" value="small">Startup/smaller company
               </label>
               <label>
                 <input type="radio" name="workplace" value="notsure">Not sure
@@ -46,8 +46,8 @@
           </div>
 
           <div class="form-group row" id="databases">
-            <label for="databases" class="col-2 col-form-label">How much do you enjoy working with databases?</label>
-            <div class="col-10">
+            <label for="databases" class="col-4 col-form-label">How much do you enjoy working with databases?</label>
+            <div class="col-8">
               <label>
                 <input type="radio" name="databases" value="alot">A lot
               </label>
@@ -61,8 +61,8 @@
           </div>
 
           <div class="form-group row" id="demand">
-            <label for="demand" class="col-2 col-form-label">How important is market demand to you?</label>
-            <div class="col-10">
+            <label for="demand" class="col-4 col-form-label">How important is market demand to you?</label>
+            <div class="col-8">
               <label>
                 <input type="radio" name="demand" value="veryImportant">Very important
               </label>
@@ -76,8 +76,8 @@
           </div>
 
           <div class="form-group row" id="interest">
-            <label for="interest" class="col-2 col-form-label">Are you more interested in back-end or front-end development?</label>
-            <div class="col-10">
+            <label for="interest" class="col-4 col-form-label">Are you more interested in back-end or front-end development?</label>
+            <div class="col-8">
               <label>
                 <input type="radio" name="interest" value="backend">Back-end
               </label>
@@ -88,25 +88,25 @@
           </div>
 
           <div class="row">
-            <div class="col-2">
+            <div class="col-4">
             </div>
-            <div class="col-10" id="submitButton">
+            <div class="col-8" id="submitButton">
               <button type="submit" class="btn btn-info">Submit</button>
             </div>
           </div>
         </form>
-      </div>
 
-      <div id="ruby">
-        <h2>Your result is Ruby/Rails</h2>
-      </div>
+        <div id="ruby">
+          <h2>Your result is Ruby/Rails</h2>
+        </div>
 
-      <div id="react">
-        <h2>Your result is CSS/React</h2>
-      </div>
+        <div id="react">
+          <h2>Your result is CSS/React</h2>
+        </div>
 
-      <div id="net">
-        <h2>Your result is C##/.NET</h2>
+        <div id="net">
+          <h2>Your result is C##/.NET</h2>
+        </div>
       </div>
 
     </div>

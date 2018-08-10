@@ -12,10 +12,12 @@ $(document).ready(function() {
         $('#ruby').show();
       } else if (worktype === 'interactive' && workplace === 'large' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
         $('#ruby').show();
-      } else if (worktype === 'design' && workplace === 'notsure' && databases === 'notatall' && demand === 'notImportant' && interest === 'frontend') {
-        $('#react').show();
       } else if (worktype === 'client-software' && workplace === 'large' && databases === 'somewhat' && demand === 'somewhatImportant' && interest === 'backend') {
         $('#net').show();
+      } else if (worktype === 'client-software' && workplace === 'small' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
+        $('#net').show();
+      } else if (worktype === 'design' && workplace === 'notsure' && databases === 'notatall' && demand === 'notImportant' && interest === 'frontend') {
+        $('#react').show();
       } else {
         $('#react').show();
       }

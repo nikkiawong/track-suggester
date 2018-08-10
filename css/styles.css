@@ -1,3 +1,20 @@
+.container {
+  padding: 5%;
+  width: 65%;
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+.card {
+  padding: 30px;
+}
+
+label {
+  padding: 5px;
+}
+
 #ruby, #react, #net {
   display: none;
 }
