@@ -1,5 +1,6 @@
 body {
   font-family: 'Overpass', sans-serif;
+  color: #4a4a4a;
 }
 
 .container {
@@ -7,9 +8,25 @@ body {
   width: 65%;
 }
 
-img {
+.header {
   margin-bottom: 30px;
+}
+
+img {
   width: 150px;
+}
+
+a {
+  color: #00b3b4;
+}
+
+#navlink {
+  color: #969696;
+}
+
+#navlink:hover {
+  color: #4a4a4a;
+  text-decoration: none;
 }
 
 h1 {
