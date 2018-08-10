@@ -20,6 +20,7 @@ This website allows users to take a quick survey to determine which programming 
 * CSS
 * Git
 * Bootstrap
+* jQuery
 * epicodus.com
 
 ## Legal

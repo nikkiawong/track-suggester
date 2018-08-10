@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 img {
@@ -20,13 +20,17 @@ a {
   color: #00b3b4;
 }
 
+a:hover {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
 #navlink {
   color: #969696;
 }
 
 #navlink:hover {
   color: #4a4a4a;
-  text-decoration: none;
 }
 
 h1 {
@@ -78,6 +82,11 @@ input {
   position: relative;
   margin-left: 45%;
   margin-right: 45%;
+}
+
+.description {
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 footer {
