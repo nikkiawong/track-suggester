@@ -30,4 +30,14 @@ $(document).ready(function() {
 
       event.preventDefault();
     });
+
+  $("#clickable1").click(function() {
+    $("#show-info1").slideToggle();
+  })
+  $("#clickable2").click(function() {
+    $("#show-info2").slideToggle();
+  })
+  $("#clickable3").click(function() {
+    $("#show-info3").slideToggle();
   });
+});

@@ -85,6 +85,10 @@ input {
   text-align: center;
 }
 
+#show-info1, #show-info2, #show-info3 {
+  display: none;
+}
+
 #submitButton {
   width: 10%;
   position: relative;
