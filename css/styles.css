@@ -115,10 +115,19 @@ input {
   padding-right: 8%;
 }
 
+#helpLine {
+  color: #00b3b4;
+}
+
+#helpLine:hover {
+  cursor: pointer;
+  color: #4a4a4a;
+}
+
 .popover {
   display: none;
   margin-left: 4.5%;
-  margin-top: 60.5%;
+  margin-top: 875px;
   font-family: 'Overpass', sans-serif;
   color: #4a4a4a;
 }
