@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('#helpLine').popover();
+
   $("form#quizForm").submit(function(event) {
     var worktype = $("input[name='worktype']:checked").val();
     var workplace = $("input[name='workplace']:checked").val();
