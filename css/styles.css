@@ -85,7 +85,7 @@ input {
   text-align: center;
 }
 
-#show-info1, #show-info2, #show-info3 {
+#show-info1, #show-info2, #show-info3, #hide1, #hide2, #hide3 {
   display: none;
 }
 

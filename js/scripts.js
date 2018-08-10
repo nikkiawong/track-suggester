@@ -33,11 +33,34 @@ $(document).ready(function() {
 
   $("#clickable1").click(function() {
     $("#show-info1").slideToggle();
+    $("#clickable1").toggle();
+    $("#hide1").show();
   })
+  $("#hide1").click(function() {
+    $("#show-info1").slideToggle();
+    $("#hide1").toggle();
+    $("#clickable1").show();
+  })
+
   $("#clickable2").click(function() {
     $("#show-info2").slideToggle();
+    $("#clickable2").toggle();
+    $("#hide2").show();
   })
+  $("#hide2").click(function() {
+    $("#show-info2").slideToggle();
+    $("#hide2").toggle();
+    $("#clickable2").show();
+  })
+
   $("#clickable3").click(function() {
     $("#show-info3").slideToggle();
+    $("#clickable3").toggle();
+    $("#hide3").show();
+  })
+  $("#hide3").click(function() {
+    $("#show-info3").slideToggle();
+    $("#hide3").toggle();
+    $("#clickable3").show();
   });
 });
