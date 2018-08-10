@@ -6,6 +6,10 @@ $(document).ready(function() {
       var demand = $("input[name='demand']:checked").val();
       var interest = $("input[name='interest']:checked").val();
 
+      var nameInput = $('input#studentName').val();
+
+      $(".studentName").text(nameInput);
+
       if (worktype === 'client-software' && workplace === 'large' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
         $('#net').show();
       } else if (worktype === 'interactive' && workplace === 'small' && databases === 'somewhat' && demand === 'somewhatImportant' && interest === 'backend') {
@@ -22,6 +26,7 @@ $(document).ready(function() {
         $('#react').show();
       }
 
+      $('#quizForm').hide();
 
       event.preventDefault();
     });

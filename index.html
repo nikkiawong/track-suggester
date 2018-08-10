@@ -15,9 +15,17 @@
       <h3>What kind of programming language best suits your needs and interests? Take this quiz to find out!</h3>
       <div class="card" id="entry">
         <form id="quizForm">
+          <div class="form-group row">
+            <div class="col-4">
+              <label for="studentName"><span class="bold">Student name</span></label>
+            </div>
+            <div class="col-8">
+              <input id="studentName" class="form-control" type="text">
+            </div>
+          </div>
 
           <div class="form-group row" id="worktype">
-            <label for="worktype" class="col-4 col-form-label">What kind of work interests you most?</label>
+            <label for="worktype" class="col-4 col-form-label"><span class="bold">1. What kind of work interests you most?</span></label>
             <div class="col-8">
               <label>
                 <input type="radio" name="worktype" value="design">Designing web pages and applications
@@ -32,7 +40,7 @@
           </div>
 
           <div class="form-group row" id="workplace">
-            <label for="workplace" class="col-4 col-form-label">What kind of company would you like to work for?</label>
+            <label for="workplace" class="col-4 col-form-label"><span class="bold">2. What kind of company would you like to work for?</span></label>
             <div class="col-8">
               <label>
                 <input type="radio" name="workplace" value="large">Large corporate/government organization
@@ -47,7 +55,7 @@
           </div>
 
           <div class="form-group row" id="databases">
-            <label for="databases" class="col-4 col-form-label">How much do you enjoy working with databases?</label>
+            <label for="databases" class="col-4 col-form-label"><span class="bold">3. How much do you enjoy working with databases?</span></label>
             <div class="col-8">
               <label>
                 <input type="radio" name="databases" value="alot">A lot
@@ -62,7 +70,7 @@
           </div>
 
           <div class="form-group row" id="demand">
-            <label for="demand" class="col-4 col-form-label">How important is market demand to you?</label>
+            <label for="demand" class="col-4 col-form-label"><span class="bold">4. How important is market demand to you?</span></label>
             <div class="col-8">
               <label>
                 <input type="radio" name="demand" value="veryImportant">Very important
@@ -77,7 +85,7 @@
           </div>
 
           <div class="form-group row" id="interest">
-            <label for="interest" class="col-4 col-form-label">Are you more interested in back-end or front-end development?</label>
+            <label for="interest" class="col-4 col-form-label"><span class="bold">5. Are you more interested in back-end or front-end development?</bold></label>
             <div class="col-8">
               <label>
                 <input type="radio" name="interest" value="backend">Back-end
@@ -88,26 +96,27 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-4">
-            </div>
-            <div class="col-8" id="submitButton">
-              <button type="submit" class="btn btn-info">Submit</button>
-            </div>
+          <div id="submitButton">
+            <button type="submit" class="btn btn-info">Submit</button>
           </div>
         </form>
 
         <div id="ruby">
-          <h2>Your result is Ruby/Rails</h2>
-          <p>Learn more about Ruby/Rails <a href="#">here</a> </p>
+          <h2><span class="studentName"></span>, you should learn Ruby/Rails!</h2>
+          <p>Learn more about Ruby/Rails <a href="#">here</a></p>
+          <p><a href="./index.html">⟳ Or take the quiz again</a></p>
         </div>
 
         <div id="react">
-          <h2>Your result is CSS/React</h2>
+          <h2><span class="studentName"></span>, you should learn CSS/React!</h2>
+          <p>Learn more about CSS/React <a href="#">here</a></p>
+          <p><a href="./index.html">⟳ Or take the quiz again</a></p>
         </div>
 
         <div id="net">
-          <h2>Your result is C##/.NET</h2>
+          <h2><span class="studentName"></span>, you should learn C#/.NET!</h2>
+          <p>Learn more about C#/.NET <a href="#">here</a></p>
+          <p><a href="./index.html">⟳ Or take the quiz again</a></p>
         </div>
       </div>
 
