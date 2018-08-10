@@ -85,8 +85,22 @@ input {
   text-align: center;
 }
 
-#show-info1, #show-info2, #show-info3, #hide1, #hide2, #hide3 {
+#show-info1, #show-info2, #show-info3 {
   display: none;
+}
+
+#clickable1, #clickable2, #clickable3 {
+  color: #00b3b4;
+}
+
+#hide1, #hide2, #hide3 {
+  display: none;
+  color: #00b3b4;
+}
+
+#clickable1:hover, #clickable2:hover, #clickable3:hover, #hide1:hover, #hide2:hover, #hide3:hover {
+  cursor: pointer;
+  color: #4a4a4a;
 }
 
 #submitButton {

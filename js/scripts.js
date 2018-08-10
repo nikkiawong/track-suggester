@@ -1,32 +1,32 @@
 $(document).ready(function() {
   $("form#quizForm").submit(function(event) {
-      var worktype = $("input[name='worktype']:checked").val();
-      var workplace = $("input[name='workplace']:checked").val();
-      var databases = $("input[name='databases']:checked").val();
-      var demand = $("input[name='demand']:checked").val();
-      var interest = $("input[name='interest']:checked").val();
+    var worktype = $("input[name='worktype']:checked").val();
+    var workplace = $("input[name='workplace']:checked").val();
+    var databases = $("input[name='databases']:checked").val();
+    var demand = $("input[name='demand']:checked").val();
+    var interest = $("input[name='interest']:checked").val();
 
-      var nameInput = $('input#studentName').val();
+    var nameInput = $('input#studentName').val();
 
-      $(".studentName").text(nameInput);
+    $(".studentName").text(nameInput);
 
-      $('#quizForm').hide();
+    $('#quizForm').hide();
 
-      if (worktype === 'client-software' && workplace === 'large' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
-        $('#net').fadeIn();
-      } else if (worktype === 'interactive' && workplace === 'small' && databases === 'somewhat' && demand === 'somewhatImportant' && interest === 'backend') {
-        $('#ruby').fadeIn();
-      } else if (worktype === 'interactive' && workplace === 'large' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
-        $('#ruby').fadeIn();
-      } else if (worktype === 'client-software' && workplace === 'large' && databases === 'somewhat' && demand === 'somewhatImportant' && interest === 'backend') {
-        $('#net').fadeIn();
-      } else if (worktype === 'client-software' && workplace === 'small' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
-        $('#net').fadeIn();
-      } else if (worktype === 'design' && workplace === 'notsure' && databases === 'notatall' && demand === 'notImportant' && interest === 'frontend') {
-        $('#react').fadeIn();
-      } else {
-        $('#react').fadeIn();
-      }
+    if (worktype === 'client-software' && workplace === 'large' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
+      $('#net').fadeIn();
+    } else if (worktype === 'interactive' && workplace === 'small' && databases === 'somewhat' && demand === 'somewhatImportant' && interest === 'backend') {
+      $('#ruby').fadeIn();
+    } else if (worktype === 'interactive' && workplace === 'large' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
+      $('#ruby').fadeIn();
+    } else if (worktype === 'client-software' && workplace === 'large' && databases === 'somewhat' && demand === 'somewhatImportant' && interest === 'backend') {
+      $('#net').fadeIn();
+    } else if (worktype === 'client-software' && workplace === 'small' && databases === 'alot' && demand === 'veryImportant' && interest === 'backend') {
+      $('#net').fadeIn();
+    } else if (worktype === 'design' && workplace === 'notsure' && databases === 'notatall' && demand === 'notImportant' && interest === 'frontend') {
+      $('#react').fadeIn();
+    } else {
+      $('#react').fadeIn();
+    }
 
       event.preventDefault();
     });
