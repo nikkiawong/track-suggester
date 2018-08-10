@@ -20,8 +20,13 @@ This website allows users to take a quick survey to determine which programming 
 * CSS
 * Git
 * Bootstrap
+* JavaScript
 * jQuery
-* epicodus.com
+
+##Sources
+
+* <a href="https://api.jquery.com/">jQuery API Documentation</a>
+* <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap 4.1 Documentation</a>
 
 ## Legal
 Copyright (c) 2018 Nikki Wong
