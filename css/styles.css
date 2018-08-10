@@ -115,6 +115,18 @@ input {
   padding-right: 8%;
 }
 
+.popover {
+  display: none;
+  margin-left: 4.5%;
+  margin-top: 60.5%;
+  font-family: 'Overpass', sans-serif;
+  color: #4a4a4a;
+}
+
+.popover-header {
+  font-weight: bold;
+}
+
 footer {
   margin-top: 65px;
   text-align: center;

@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $('#helpLine').popover();
+  $('#helpLine').click(function() {
+    $('.popover').toggle();
+  })
+
 
   $("form#quizForm").submit(function(event) {
     var worktype = $("input[name='worktype']:checked").val();
